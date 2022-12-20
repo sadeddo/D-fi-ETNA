@@ -1,0 +1,110 @@
+.logoet {
+    width: 50%;
+    height: 50%;
+    margin:auto;
+}
+
+.search {
+
+}
+.search:focus {
+    background-color : white;
+    outline: 2px solid #54B9FF;
+    border-radius: 2px;
+  }
+
+.recherche {
+    text-align: center;
+}
+header { 
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:2%;
+    align-items: center;
+    margin-right:3%;
+    margin-left:2%;
+    margin-top:2%;
+    padding-bottom:1%;
+    border-bottom: 2px solid black;
+
+}
+button {
+    
+    font-size: 15px;
+    font-weight:bold;
+    border-radius:5px;
+    border: 2px solid #54B9FF;
+    cursor: pointer;
+}
+
+ 
+
+
+
+
+
+.listetud {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.listetud tr:first-child {
+    background-color: #54B9FF;
+    color: #ffffff;
+    text-align: left;
+}
+
+.listetud th,
+.listetud td {
+    padding: 12px 15px;
+}
+
+.listetud tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.listetud tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.listetud tbody tr:last-of-type {
+    border-bottom: 2px solid #54B9FF;
+}
+
+.listetud tbody tr.active-row {
+    font-weight: bold;
+    color: #54B9FF;
+}
+
+.autre{
+    display:flex;
+    flex-direction: column;
+    margin:7%;
+}
+
+
+.retard {
+    text-align: center;
+    margin-top: 10%;
+    
+}
+
+.absent {
+    text-align: center;
+    
+  
+}
+
+.present {
+    text-align: center;
+    margin-top: 7%;
+    width: 40%;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
